@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" href="lion.png-Photoroom.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiss Watches</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', static;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: 	#ffffff;
+            color: 	#696969;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: 	#696969;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .product {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .product-item {
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            width: 300px;
+            background: #fafafa;
+            transition: 0.3s;
+        }
+        .product-item:hover {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: 	#b8b8b8;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .custom-font {
+            font-family: 'Montserrat', static; 
+            font-size: 20px;
+            color: black;
+            text-decoration: none; 
+        }
+        .logo-text {
+            display: flex;
+            align-items: center; 
+        }
+        .logo {
+            margin-right: 10px; 
+        }
+        body {
+            font-family: 'Montserrat', static;
+        }
+
+        .removable {
+            display: inline-block;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        .removable:hover {
+            background-color: #f0f0f0;
+        }
+        body {
+            background-color: #f0f0f0;
+            color: #333;
+            font-family: 'Montserrat', static;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .form-section, .filter-section, .report-section {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            width: 40%;
+            padding: 10px;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        tbody tr:hover {
+            background-color: #f2f2f2;
+        }
+        input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', static;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: -200px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    align-items: center;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}   
+
+h1 {
+    text-align: center;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #777;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #555;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+p {
+    text-align: center;
+    color: #777;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo-text">
+        <a href="registration.html">
+            <img src="./ebalo.png" style="margin-left: 10px;" width="25" height="25">
+        </a>
+        <a href="korzina.html">
+            <img src="./korzina-Photoroom.png" style="margin-left: 15px;" width="30" height="30">
+        </a>
+        <a href="switz.png.png" target="_blank"></a>
+        <img src="switz.png.png" style="margin-left: 950px;" class="logo" width="30" height="30">
+        <span>Swiss watches</span>
+    </div>
+    <nav>
+        <a href="omega.html" style="margin-right: 40px;">Omega</a>
+        <a href="ULYSSE NARDIN.html">
+            <img src="./lion.png.jpg" alt="Описание изображения" style="align: center" width="30" height="30">
+        </a>
+        <a href="rolex.html" style="margin-left: 40px;">Rolex</a>
+        <br>
+        <br>
+    </nav>
+
+</header>
+</div>
+<br>
+<div class="container">
+    <h1>Регистрация</h1>
+    <form class="registration-form">
+        <div class="form-group">
+            <label for="username">Имя пользователя</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Электронная почта</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Пароль</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+</div>
+<br>
+<footer class="footer">
+    <p>&copy; 2024 Магазин швейцарских часов "Swiss watches".</p>
+</footer>
+</body>
+</html>
